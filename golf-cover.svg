@@ -1,0 +1,140 @@
+<svg viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky gradient background -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Grass gradient -->
+    <linearGradient id="grassGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#228B22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#006400;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Fairway gradient -->
+    <linearGradient id="fairwayGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#32CD32;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#228B22;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Green gradient -->
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#7CFC00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#32CD32;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Sand gradient -->
+    <linearGradient id="sandGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F4E4BC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D2B48C;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Water gradient -->
+    <linearGradient id="waterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4682B4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2F4F4F;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="1200" height="600" fill="url(#skyGradient)"/>
+  
+  <!-- Distant mountains -->
+  <path d="M 0 300 Q 200 250 400 280 T 800 260 T 1200 290 L 1200 600 L 0 600 Z" fill="#708090" opacity="0.6"/>
+  
+  <!-- Golf course landscape -->
+  
+  <!-- Rolling hills background -->
+  <path d="M 0 400 Q 300 350 600 380 T 1200 360 L 1200 600 L 0 600 Z" fill="url(#grassGradient)"/>
+  
+  <!-- Main fairway -->
+  <ellipse cx="600" cy="480" rx="500" ry="80" fill="url(#fairwayGradient)"/>
+  
+  <!-- Water hazard -->
+  <ellipse cx="900" cy="450" rx="120" ry="40" fill="url(#waterGradient)"/>
+  
+  <!-- Sand bunkers -->
+  <ellipse cx="400" cy="470" rx="60" ry="25" fill="url(#sandGradient)"/>
+  <ellipse cx="750" cy="490" rx="80" ry="30" fill="url(#sandGradient)"/>
+  
+  <!-- The green -->
+  <ellipse cx="200" cy="450" rx="90" ry="35" fill="url(#greenGradient)"/>
+  
+  <!-- Flag pole -->
+  <line x1="200" y1="450" x2="200" y2="420" stroke="#8B4513" stroke-width="3"/>
+  
+  <!-- Flag -->
+  <path d="M 200 420 L 230 425 L 200 430 Z" fill="#FF4500"/>
+  
+  <!-- Golf ball on green -->
+  <circle cx="190" cy="448" r="3" fill="white" stroke="#ccc" stroke-width="0.5"/>
+  
+  <!-- Trees -->
+  <!-- Tree 1 -->
+  <ellipse cx="80" cy="380" rx="30" ry="40" fill="#228B22"/>
+  <rect x="75" y="380" width="10" height="30" fill="#8B4513"/>
+  
+  <!-- Tree 2 -->
+  <ellipse cx="320" cy="370" rx="25" ry="35" fill="#228B22"/>
+  <rect x="315" y="370" width="8" height="25" fill="#8B4513"/>
+  
+  <!-- Tree 3 -->
+  <ellipse cx="1000" cy="360" rx="35" ry="45" fill="#228B22"/>
+  <rect x="995" y="360" width="12" height="35" fill="#8B4513"/>
+  
+  <!-- Tree 4 -->
+  <ellipse cx="1100" cy="370" rx="28" ry="38" fill="#228B22"/>
+  <rect x="1095" y="370" width="10" height="28" fill="#8B4513"/>
+  
+  <!-- Clouds -->
+  <ellipse cx="300" cy="100" rx="40" ry="25" fill="white" opacity="0.8"/>
+  <ellipse cx="320" cy="105" rx="35" ry="20" fill="white" opacity="0.8"/>
+  <ellipse cx="340" cy="100" rx="30" ry="18" fill="white" opacity="0.8"/>
+  
+  <ellipse cx="800" cy="80" rx="45" ry="28" fill="white" opacity="0.8"/>
+  <ellipse cx="825" cy="85" rx="38" ry="23" fill="white" opacity="0.8"/>
+  <ellipse cx="850" cy="80" rx="32" ry="20" fill="white" opacity="0.8"/>
+  
+  <!-- Golf tees in distance -->
+  <rect x="500" y="440" width="3" height="15" fill="#8B4513"/>
+  <rect x="720" y="435" width="3" height="15" fill="#8B4513"/>
+  
+  <!-- Cart path -->
+  <path d="M 0 520 Q 200 510 400 520 T 800 525 T 1200 530" stroke="#A0A0A0" stroke-width="8" fill="none" opacity="0.7"/>
+  
+  <!-- Title overlay with semi-transparent background -->
+  <rect x="0" y="0" width="1200" height="150" fill="rgba(0,0,0,0.4)"/>
+  
+  <!-- Main title -->
+  <text x="600" y="70" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="white">
+    Golf Tournament Pro
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="110" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#E0E0E0">
+    Real-time scoring • Team management • Mobile-friendly
+  </text>
+  
+  <!-- Golf club silhouette -->
+  <g transform="translate(50, 450)">
+    <path d="M 0 0 L 2 -80 L 8 -82 L 12 -80 L 10 0 Z" fill="#8B4513"/>
+    <ellipse cx="6" cy="-82" rx="8" ry="4" fill="#C0C0C0"/>
+  </g>
+  
+  <!-- Golf bag -->
+  <g transform="translate(1150, 420)">
+    <rect x="0" y="0" width="25" height="60" rx="5" fill="#8B4513"/>
+    <rect x="2" y="2" width="21" height="56" rx="3" fill="#A0522D"/>
+    <line x1="5" y1="-10" x2="5" y2="5" stroke="#8B4513" stroke-width="2"/>
+    <line x1="10" y1="-15" x2="10" y2="5" stroke="#8B4513" stroke-width="2"/>
+    <line x1="15" y1="-8" x2="15" y2="5" stroke="#8B4513" stroke-width="2"/>
+    <line x1="20" y1="-12" x2="20" y2="5" stroke="#8B4513" stroke-width="2"/>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="250" r="2" fill="white" opacity="0.6"/>
+  <circle cx="150" cy="200" r="1.5" fill="white" opacity="0.5"/>
+  <circle cx="1050" cy="180" r="2" fill="white" opacity="0.6"/>
+  <circle cx="1120" cy="220" r="1.5" fill="white" opacity="0.5"/>
+</svg>
